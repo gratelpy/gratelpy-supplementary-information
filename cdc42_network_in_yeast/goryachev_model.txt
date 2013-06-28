@@ -1,0 +1,14 @@
+# Goryachev 2008
+# 8 complexes
+[Ec] -> [Em]; v1
+[Em] -> [Ec]; v2
+[RT] + [Em] -> [M]; v3
+[M] -> [RT] + [Em]; v4
+[Em] + [RD] -> [Em] + [RT]; v5
+[M] + [RD] -> [M] + [RT]; v6
+[RT] -> [RD]; v7
+[Ec] + [RT] -> [M]; v8
+[RDIm] -> [I] + [RD]; v9
+[RD] + [I] -> [RDIm]; v10
+[RDIc] -> [RDIm]; v11
+[RDIm] -> [RDIc]; v12

@@ -1,0 +1,21 @@
+strict digraph G {
+remincross="true";
+ratio="fill";
+splines="curved";
+overlap="true";
+fontsize="26";
+size="8.3,8.3";
+A4 [shape="circle", pos="160.0,280.0!"];
+A1 [shape="circle", pos="236.0,200.0!"];
+A2 [shape="circle", pos="320.0,280.0!"];
+A5 [shape="circle", pos="160.0,120.0!"];
+k4 [shape="box", pos="200.0,240.0!"];
+k3 [shape="box", pos="280.0,240.0!"];
+k2 [shape="box", pos="360.0,240.0!"];
+k8 [shape="box", pos="300.0,80.0!"];
+k3 -> A1;
+A4 -> k4;
+A5 -> k8;
+A2 -> k2;
+A1 -> k3;
+}

@@ -1,0 +1,30 @@
+strict digraph G {
+remincross="true";
+ratio="fill";
+splines="curved";
+overlap="true";
+fontsize="26";
+size="8.3,8.3";
+ApE2 [shape="circle", pos="50.0,80.0!"];
+AppE2 [shape="circle", pos="240.0,100.0!"];
+E1 [shape="circle", pos="160.0,200.0!"];
+A [shape="circle", pos="0.0,120.0!"];
+k12 [shape="box", pos="0.0,60.0!"];
+ApE1 [shape="circle", pos="260.0,128.0!"];
+k10 [shape="box", pos="110.0,90.0!"];
+k6 [shape="box", pos="320.0,160.0!"];
+k4 [shape="box", pos="220.0,170.0!"];
+k1 [shape="box", pos="0.0,200.0!"];
+Ap [shape="circle", pos="160.0,160.0!"];
+k9 [shape="box", pos="190.0,70.0!"];
+ApE1 -> k6;
+A -> k1;
+k10 -> ApE2;
+E1 -> k1;
+AppE2 -> k9;
+ApE2 -> k12;
+Ap -> k4;
+E1 -> k4;
+k12 -> A;
+Ap -> k10;
+}

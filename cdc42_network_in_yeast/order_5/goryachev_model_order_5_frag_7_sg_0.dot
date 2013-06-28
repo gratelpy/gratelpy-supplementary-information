@@ -1,0 +1,23 @@
+strict digraph G {
+remincross="true";
+ratio="fill";
+splines="curved";
+overlap="true";
+fontsize="26";
+size="8.3,8.3";
+RT [shape="circle", pos="80.0,240.0!"];
+Em [shape="circle", pos="0.0,280.0!"];
+v12 [shape="box", pos="280.0,0.0!"];
+RD [shape="circle", pos="200.0,160.0!"];
+v10 [shape="box", pos="160.0,80.0!"];
+v5 [shape="box", pos="0.0,160.0!"];
+v4 [shape="box", pos="80.0,360.0!"];
+RDIm [shape="circle", pos="300.0,80.0!"];
+M [shape="circle", pos="260.0,360.0!"];
+v8 [shape="box", pos="160.0,320.0!"];
+Em -> v5;
+M -> v4;
+RD -> v10;
+RDIm -> v12;
+RT -> v8;
+}
