@@ -7,11 +7,11 @@ size="8.3,8.3";
 A4 [shape="circle", fontsize=26, pos="160.0,280.0!"];
 A1 [shape="circle", fontsize=26, pos="236.0,200.0!"];
 A5 [shape="circle", fontsize=26, pos="160.0,120.0!"];
-k6 [shape="box", fontsize=26, pos="120.0,200.0!"];
-k4 [shape="box", fontsize=26, pos="200.0,240.0!"];
-k3 [shape="box", fontsize=26, pos="280.0,240.0!"];
-A4 -> k4;
-k3 -> A1;
-A5 -> k6;
-A1 -> k3;
+B6 [shape="box", fontsize=26, pos="120.0,200.0!"];
+B4 [shape="box", fontsize=26, pos="200.0,240.0!"];
+B3 [shape="box", fontsize=26, pos="280.0,240.0!"];
+A4 -> B4;
+B3 -> A1;
+A5 -> B6;
+A1 -> B3;
 }
