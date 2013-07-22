@@ -57,3 +57,5 @@ Inside each `order_` directory you will find the following files:
 * The `.pdf` files are the drawings of the critical fragments and subgraphs
   defined by the corresponding `.dot` file.
   These are generated with `$ neato -o -Tpdf -o NAME.pdf NAME.dot`.
+  **After clicking on a `.pdf` file you likely need to click on `View Raw`
+  in the centre of the page to download and open the drawing**
